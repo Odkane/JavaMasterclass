@@ -1,4 +1,4 @@
-package Java.Masterclass.Basics;
+package Java.Masterclass.ArrayList;
 
 public class Arrays {
 	
@@ -59,26 +59,24 @@ public class Arrays {
 	
 	public static void main(String[] args) {
 		
-		int n=5;
+		int n=10;
 
 		int[] myArray;
 
 		myArray = getIntegers(n);
 
-		System.out.print(" Array before sorting :");
+		System.out.print(" Array before sorting:");
 		printArray(myArray);
 
 		sortIntegers(myArray);
 
-		System.out.print(" Array after sorting :");
+		System.out.print(" Array after sorting:");
 		printArray(myArray);
 		
 		myArray = reverse(myArray);
 		
-		System.out.print(" Array after reversing :");
+		System.out.print(" Array after reversing:");
 		printArray(myArray);
-		
-		
 	}
 
 }
